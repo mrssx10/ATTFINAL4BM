@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.info-container {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 350px;
+  text-align: center;
+  border: 2px solid #007bff;
+}
+
+.info-container h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info-item {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.info-item strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.info-item span {
+  color: #333;
+  font-style: italic;
+}
+
+.info-item span {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 2px;
+}
+
+.info-item:hover span {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+
+.back-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: 100%; 
+}
+
+.back-btn:hover {
+  background-color: #0056b3;
+}
+
+.voltar-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
